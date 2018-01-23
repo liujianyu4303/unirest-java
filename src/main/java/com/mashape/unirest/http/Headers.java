@@ -12,11 +12,8 @@ public class Headers extends HashMap<String, List<String>> {
 
 		List<String> list = get(key);
 		if (list != null && list.size() > 0) {
-
-
-
-			return list.get(0);
-
+			System.out.println(list);
+			return list.get(1);
 		}
 		return null;
 	}
