@@ -37,6 +37,9 @@ public class JsonNode {
 	private boolean array;
 
 	public JsonNode(String json) {
+
+
+
 		if (json == null || "".equals(json.trim())) {
 			jsonObject = new JSONObject();
 		} else {
