@@ -12,7 +12,10 @@ public class Headers extends HashMap<String, List<String>> {
 		if (list != null && list.size() > 0) {
 			return list.get(0);
 		}
+
+
+
 		return null;
 	}
-	
+
 }
