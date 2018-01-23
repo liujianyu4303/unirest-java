@@ -32,6 +32,7 @@ import org.apache.http.client.methods.HttpEntityEnclosingRequestBase;
 class HttpDeleteWithBody extends HttpEntityEnclosingRequestBase {
 	public static final String METHOD_NAME = "DELETE";
 
+
 	public String getMethod() {
 		return METHOD_NAME;
 	}
