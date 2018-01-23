@@ -67,6 +67,10 @@ public class HttpClientHelper {
 
 
 
+
+
+
+
 	private static final String ACCEPT_ENCODING_HEADER = "accept-encoding";
 	private static final String USER_AGENT_HEADER = "user-agent";
 	private static final String USER_AGENT = "unirest-java/1.3.11";
