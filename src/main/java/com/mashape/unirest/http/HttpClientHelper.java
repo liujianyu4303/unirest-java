@@ -78,6 +78,9 @@ public class HttpClientHelper {
 
 
 
+
+
+
 	private static final String USER_AGENT = "unirest-java/1.3.11";
 
 	private static <T> FutureCallback<org.apache.http.HttpResponse> prepareCallback(final Class<T> responseClass, final Callback<T> callback) {
